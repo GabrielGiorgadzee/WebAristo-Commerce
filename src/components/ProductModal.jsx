@@ -5,7 +5,6 @@ const ProductModal = ({ show, onClose }) => {
   if (!show) return null;
 
   return (
-    <>
       <div className="custom-backdrop" onClick={onClose}></div>
       <div className="modal d-block custom-modal" tabIndex="-1">
         <div className="modal-dialog modal-xl modal-dialog-centered">
@@ -42,7 +41,6 @@ const ProductModal = ({ show, onClose }) => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 
